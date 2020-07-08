@@ -1,0 +1,352 @@
+body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Kumar One', cursive;*/
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.navi {
+    position: sticky;
+    top: 0;
+    height: 75px;
+    background-color: black;
+    font-size: 20px;
+}
+
+.container-navi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    float: right;
+    margin-right: 50px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.info:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.logo {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+.img {
+    background-image: url("../assets/image/779611.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#timer{
+        width: 10%;
+        height: 55px;
+        text-align: center;
+        float: right;
+        display: flex;
+        font-size: 30px;
+        padding-top: 17px;
+}
+.search {
+    width: 60%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    width: 30%;
+    color: black;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.button-search {
+    width: 30%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+.mainer {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 35px;
+    font-family: 'Kumar One', cursive;
+
+}
+
+.boxes {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-image: url("../assets/image/hungary.jpg");
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+
+.box2 {
+    background-image: url("../assets/image/Croatia.jpg");
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+
+.box3 {
+    background-image: url("../assets/image/bulgaria.jpg");
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.offer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Kumar One', cursive;
+    background-color: #8B4513;
+    border: 5px double black;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #080808;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .navi {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .logo img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .button-search {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .search {
+        width: 480px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mainer text {
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 662px) {
+    .offer {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #clock {
+        font-size: 15px;
+    }
+}
+
+
+/* CONTACT PAGE --------- */
+
+
+#header {
+    width: 45%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #8B4513;
+    padding-top: 20px;
+    word-wrap: break-word;
+    border-top: 6px dashed grey;
+    border-left: 6px dashed grey;
+    border-right: 6px dashed grey;
+}
+
+#form {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Kumar One', cursive;
+}
+
+#contactform {
+    width: 55%;
+    height: 900px;
+    margin: auto;
+    align-items: center;
+    background-color: grey;
+    border: 6px dashed #8B4513;
+}
+
+#information {
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    width: 70%;
+}
+
+
+
+/* ABOUT US PAGE --------- */
+
+#aboutheader {
+    width: 45%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #8B4513;
+    padding-top: 20px;
+    word-wrap: break-word;
+    border-top: 6px dashed grey;
+    border-left: 6px dashed grey;
+    border-right: 6px dashed grey;
+}
+
+#aboutform {
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    background-color: grey;
+    border: 6px dashed #8B4513;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#sign {
+    float: right;
+}
+
+
+
+/* RECOM PAGE --------- */
+
+#recomheader {
+    width: 45%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #8B4513;
+    padding-top: 20px;
+    word-wrap: break-word;
+    border-top: 6px dashed grey;
+    border-left: 6px dashed grey;
+    border-right: 6px dashed grey;
+}
+
+#recomform {
+    width: 55%;
+    height: 900px;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    background-color: grey;
+    border: 6px dashed #8B4513;
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.recombox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgrey;
+}

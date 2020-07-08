@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Kristour.eu</title>
+    <meta name="description"
+        content="Wycieczki autokarowe(Węgry, Chorwacja, Niemcy), Bilety lotnicze oraz autokarowe, rejs, bilety na kąpieliska, obozy." />
+    <meta name="keywords" content="Zakup biletu, Sindbad, Eurojet, Wycieczki Eger, Autokary do wynajęcia itd." />
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src=index.js></script>
+</head>
+
+<body onload="odliczanie();">
+
+    <div class="navi">
+        <div id="timer"></div>
+        <div class="container">
+            
+            <div class="container-navi">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/image/logov3.PNG" />
+                    </a>
+                </div>
+
+                <div class="menu-container">
+
+                    <div class="info">
+                        <a href="recom.html">
+                            Rekomendacje
+                        </a>
+                    </div>
+
+                    <div class="info">
+                        <a href="contact.php">
+                            Kontakt
+                        </a>
+                    </div>
+
+
+                    <div class="info">
+                        <a href="aboutus.html">
+                            O nas
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="img">
+
+        <div class="search">
+            <div class="button">
+                <input type="text" name="TRASA"
+                    style="background-color: #8B4513; width: 100%; font-size: 25px; height: 100%">
+            </div>
+            <div class="button">
+                <input type="text" name="TERMIN"
+                    style="background-color: #8B4513; width: 100%; font-size: 25px; height: 100%">
+            </div>
+            <div class="button-search">
+                <input type="button" value="SEARCH"
+                    style="background-color: #FFFFFF; color:#8B4513; font-weight: 900; font-size: 25px; width: 100%; text-align: center; height: 100%">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="mainer">
+        <p>NASZE NAJLEPSZE OFERTY</p>
+        <p>Pakiety wyjazdowe:</p>
+    </div>
+
+    <div class="boxes">
+
+        <div class="box1">
+            <div class='offer'>
+                NASZA OFERTA:
+            </div>
+
+        </div>
+
+        <div class="box2">
+            <div class='offer'>
+                NASZA OFERTA:
+            </div>
+        </div>
+
+        <div class="box3">
+            <div class='offer'>
+                NASZA OFERTA:
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="footer">
+        FOOTER
+    </div>
+
+
+
+</body>
+<script type="text/javascript">
+    
+    function timing() {
+    var dzisiaj = new Date();
+
+    var godzina = dzisiaj.getHours();
+    if (godzina<10) godzina = "0"+godzina;
+    var minuta = dzisiaj.getMinutes();
+    if (minuta<10) minuta = "0"+minuta;
+    var sekunda = dzisiaj.getSeconds();
+    if (sekunda<10) sekunda = "0"+sekunda;
+
+    document.getElementById("clock").innerHTML = godzina + ":" + minuta + ":" + sekunda;
+
+    setTimeout("timing", 1000)
+}
+</script>
+
+
+
+
+
+
+
+</html>
+
+
+
+
+<!--<div class="header">
+         
+        <div class="logo">
+            <a href=>
+                <img src="assets/image/logov2.PNG"/>
+            </a>
+        </div>
+
+         <div class="travel">
+                <img src="assets/image/travel4.jpg"/>
+        </div>
+
+    </div>
+    <div class="allitems">
+
+        <div class="items">
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+        </div>
+
+        <div class=items2>
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+
+            <div class="box">
+                <img src="assets/image/realisation-3.jpg">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="footer">
+
+    <div class="contact">
+        <h4>(+48) 18 354 00 44, (+48) 507 732 195</h4>
+    </div>
+
+    <div class="wp">
+        <h4>kristour@wp.pl</h4>
+    </div>
+
+    <div class="copy">
+       <h4>Copyright © 2020 Kris-Tour Gorlice</h4> 
+    </div>
+</div>
+    
+</body>-->
